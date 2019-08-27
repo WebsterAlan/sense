@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">sense</string>
+    <string name="send_button">Enviar</string>
 </resources>
