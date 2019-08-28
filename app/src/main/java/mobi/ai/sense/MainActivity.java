@@ -25,7 +25,12 @@ public class MainActivity extends AppCompatActivity {
         String message5 = editText5.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message4);
         intent.putExtra(EXTRA_MESSAGE, message5);
+
+        /* Usado para enviar dados sem retorno */
         startActivity(intent);
+
+        /* Usado para retornar algum resultado */
+        //startActivityForResult();
     }
 
 
