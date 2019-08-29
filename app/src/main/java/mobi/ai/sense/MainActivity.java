@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra(EXTRA_MESSAGE, message4);
         intent.putExtra(EXTRA_MESSAGE, message5);
 
+        this.iniciarSessao(message4,message5);
+
         /* Usado para enviar dados sem retorno */
         startActivity(intent);
 
@@ -36,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         //startActivityForResult();
     }
 
-    public void iniciarSessao(){
+    public void iniciarSessao(String email, String password){
 
         //SharedPreferences sharedPreferences = getApplicationContext().getSharedPreferences();
 
