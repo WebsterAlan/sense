@@ -39,6 +39,11 @@ public class MainActivity extends AppCompatActivity {
     public void iniciarSessao(){
 
         //SharedPreferences sharedPreferences = getApplicationContext().getSharedPreferences();
+
+        /* Limpar sessão */
+
+        /*SharedPreferences.Editor edit = sharedPreferences.edit();
+        edit.clear(); */
     }
 
 
