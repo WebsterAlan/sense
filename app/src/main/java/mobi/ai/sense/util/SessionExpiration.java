@@ -13,6 +13,8 @@ public class SessionExpiration extends Application {
 
    public class Contador extends CountDownTimer {
 
+        private long time;
+        private boolean isRunning = false;
 
        public Contador(long millisInFuture, long countDownInterval) {
            super(millisInFuture, countDownInterval);
@@ -20,7 +22,9 @@ public class SessionExpiration extends Application {
 
        @Override
        public void onTick(long l) {
-
+          this.time = l;
+          this.isRunning = true;
+          //sendBroadcast();
        }
 
        @Override

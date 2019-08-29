@@ -19,6 +19,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+       // registerReceiver();
+    }
+
     public void sendMessage(View view) {
 
         Intent intent = new Intent(this, DisplayMessageActivity.class);
