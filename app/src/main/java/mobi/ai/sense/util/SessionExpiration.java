@@ -20,7 +20,6 @@ public class SessionExpiration extends Application {
            count = new Contador(30000,1000);
            count.start();
         }
-
     }
 
    public class Contador extends CountDownTimer {

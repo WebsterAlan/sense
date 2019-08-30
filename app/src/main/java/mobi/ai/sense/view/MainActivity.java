@@ -66,6 +66,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void iniciarSessao(String email, String password){
 
+
+    }
+
+    public void saveDataApp(){
+
         //SharedPreferences sharedPreferences = getApplicationContext().getSharedPreferences();
 
         /* Limpar sessão */
@@ -73,6 +78,4 @@ public class MainActivity extends AppCompatActivity {
         /*SharedPreferences.Editor edit = sharedPreferences.edit();
         edit.clear(); */
     }
-
-
 }
