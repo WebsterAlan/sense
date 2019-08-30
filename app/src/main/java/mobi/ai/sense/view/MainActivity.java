@@ -1,17 +1,37 @@
 package mobi.ai.sense.view;
 
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
 import android.view.View;
 import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import mobi.ai.sense.R;
+import mobi.ai.sense.util.SessionExpiration;
 import mobi.ai.sense.view.DisplayMessageActivity;
+
+import java.text.SimpleDateFormat;
+import java.util.Locale;
 
 
 public class MainActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = "mobi.ai.sense";
+
+    SimpleDateFormat datePresent = new SimpleDateFormat("mm:ss", Locale.US);
+
+    private BroadcastReceiver receiver = new BroadcastReceiver() {
+
+
+        @Override
+        public void onReceive(Context context, Intent intent) {
+
+
+
+
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
