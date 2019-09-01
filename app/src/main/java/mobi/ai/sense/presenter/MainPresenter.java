@@ -15,10 +15,11 @@ public class MainPresenter {
         Intent intent = new Intent(mainActivity, DisplayMessageActivity.class);
         intent.putExtra(EXTRA_MESSAGE, editText4.getText().toString());
         intent.putExtra(EXTRA_MESSAGE, editText5.getText().toString());
+        this.iniciarSessao(editText4.getText().toString(), editText5.getText().toString());
         return intent;
     }
 
-    public void iniciarSessao(String email, String password){
+     public void iniciarSessao(String email, String password){
 
 
     }
