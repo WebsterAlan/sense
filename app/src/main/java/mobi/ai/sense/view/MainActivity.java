@@ -8,6 +8,7 @@ import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import mobi.ai.sense.R;
+import mobi.ai.sense.presenter.MainPresenter;
 import mobi.ai.sense.util.SessionExpiration;
 import mobi.ai.sense.view.DisplayMessageActivity;
 
@@ -20,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
     public static final String EXTRA_MESSAGE = "mobi.ai.sense";
 
     SimpleDateFormat datePresent = new SimpleDateFormat("mm:ss", Locale.US);
+
+    MainPresenter mainPresenter;
 
     private BroadcastReceiver receiver = new BroadcastReceiver() {
 
@@ -47,15 +50,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void sendMessage(View view) {
 
-        Intent intent = new Intent(this, DisplayMessageActivity.class);
+
         EditText editText4 = (EditText) findViewById(R.id.editText4);
         EditText editText5 = (EditText) findViewById(R.id.editText5);
-        String message4 = editText4.getText().toString();
-        String message5 = editText5.getText().toString();
-        intent.putExtra(EXTRA_MESSAGE, message4);
-        intent.putExtra(EXTRA_MESSAGE, message5);
-
-        this.iniciarSessao(message4,message5);
+        Intent intent = this.mainPresenter.efetuarLogin(editText4,editText5,this);
 
         /* Usado para enviar dados sem retorno */
         startActivity(intent);
@@ -64,10 +62,7 @@ public class MainActivity extends AppCompatActivity {
         //startActivityForResult();
     }
 
-    public void iniciarSessao(String email, String password){
 
-
-    }
 
     public void saveDataApp(){
 
