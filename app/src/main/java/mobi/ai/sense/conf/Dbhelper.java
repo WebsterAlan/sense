@@ -4,8 +4,16 @@ import android.content.Context;
 import android.database.DatabaseErrorHandler;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import mobi.ai.sense.contract.PostContract;
 
 public class Dbhelper extends SQLiteOpenHelper {
+
+    private static final String Text_Type = "TXT";
+    private static final String Comma_Sep = ",";
+    private static final String Sql_Post = "CREATE TABLE" + PostContract.PostEntry.TABLE_NAME + "{" +
+            PostContract.PostEntry._ID + "INTEGER PRIMARY KEY" + PostContract.PostEntry.COLUMN_NAME_TITLE +
+            Text_Type + Comma_Sep + PostContract.PostEntry.COLUMN_NAME_SUBTITLE + Text_Type + "}";
+
 
 
     public Dbhelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
