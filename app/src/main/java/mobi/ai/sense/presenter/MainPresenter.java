@@ -19,15 +19,11 @@ public class MainPresenter {
         intent.putExtra(EXTRA_MESSAGE, editText5.getText().toString());
         String email = editText4.getText().toString();
         String password = editText5.getText().toString();
-        //this.loginModel.consultUser();
-        this.iniciarSessao(email, password);
+        this.loginModel.consultUser(email,password);
         return intent;
     }
 
-     public void iniciarSessao(String email, String password){
 
-
-    }
 
 
 }

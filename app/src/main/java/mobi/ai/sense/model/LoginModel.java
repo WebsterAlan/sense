@@ -5,7 +5,8 @@ public class LoginModel {
 
 
 
-    public boolean consultUser(){
+    public boolean consultUser(String email, String password){
+
 
 
 

@@ -10,14 +10,18 @@ public class Dbhelper extends SQLiteOpenHelper {
 
     private static final String Text_Type = "TXT";
     private static final String Comma_Sep = ",";
-    private static final String Sql_Post = "CREATE TABLE" + PostContract.PostEntry.TABLE_NAME + "{" +
+    private static final String SQL_CREATE_POST = "CREATE TABLE" + PostContract.PostEntry.TABLE_NAME + "{" +
             PostContract.PostEntry._ID + "INTEGER PRIMARY KEY" + PostContract.PostEntry.COLUMN_NAME_TITLE +
             Text_Type + Comma_Sep + PostContract.PostEntry.COLUMN_NAME_SUBTITLE + Text_Type + "}";
 
+    private static final String SQL_DELETE_POSTS =
+            "DROP TABLE IF EXISTS " + PostContract.PostEntry.TABLE_NAME;
 
+    public static final int DATABASE_VERSION = 1;
+    public static final String DATABASE_NAME = "SENSE_DATABASE";
 
     public Dbhelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
-        super(context, name, factory, version);
+        super(context, this.DATABASE_NAME, null, this.DATABASE_VERSION);
     }
 
     public Dbhelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version, DatabaseErrorHandler errorHandler) {
@@ -30,11 +34,12 @@ public class Dbhelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-
+        sqLiteDatabase.execSQL("");
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
-
+       sqLiteDatabase.execSQL("");
+       this.onCreate(sqLiteDatabase);
     }
 }
