@@ -18,7 +18,7 @@ public class Main {
         intent.putExtra(EXTRA_MESSAGE, editText5.getText().toString());
         String email = editText4.getText().toString();
         String password = editText5.getText().toString();
-        this.loginRepository.consultUser(email,password);
+        boolean result = this.loginRepository.consultUser(email,password);
         return intent;
     }
 
