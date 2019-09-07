@@ -1,5 +1,7 @@
 package mobi.ai.sense.model;
 
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
 import mobi.ai.sense.conf.Dbhelper;
 import mobi.ai.sense.conf.SenseApplication;
 
@@ -12,9 +14,9 @@ public class LoginModel {
 
     public boolean consultUser(String email, String password){
 
-      /* Método de inserção de dados */
-      this.dbhelper.getWritableDatabase();
-
+      /* Método que permite inserção de dados */
+        SQLiteDatabase db = this.dbhelper.getWritableDatabase();
+        db.execSQL("");
 
 
        return true;
