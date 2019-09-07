@@ -1,4 +1,4 @@
-package mobi.ai.sense.view;
+package mobi.ai.sense.ui;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -8,9 +8,7 @@ import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import mobi.ai.sense.R;
-import mobi.ai.sense.presenter.MainPresenter;
-import mobi.ai.sense.util.SessionExpiration;
-import mobi.ai.sense.view.DisplayMessageActivity;
+import mobi.ai.sense.crtl.Main;
 
 import java.text.SimpleDateFormat;
 import java.util.Locale;
@@ -22,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     SimpleDateFormat datePresent = new SimpleDateFormat("mm:ss", Locale.US);
 
-    MainPresenter mainPresenter;
+    Main main;
 
     private BroadcastReceiver receiver = new BroadcastReceiver() {
 
@@ -53,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
         EditText editText4 = (EditText) findViewById(R.id.editText4);
         EditText editText5 = (EditText) findViewById(R.id.editText5);
-        Intent intent = this.mainPresenter.efetuarLogin(editText4,editText5,this);
+        Intent intent = this.main.efetuarLogin(editText4,editText5,this);
 
         /* Usado para enviar dados sem retorno */
         startActivity(intent);

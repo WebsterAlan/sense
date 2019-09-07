@@ -1,16 +1,15 @@
-package mobi.ai.sense.presenter;
+package mobi.ai.sense.crtl;
 
 import android.content.Intent;
 import android.widget.EditText;
-import mobi.ai.sense.R;
-import mobi.ai.sense.model.LoginModel;
-import mobi.ai.sense.view.DisplayMessageActivity;
-import mobi.ai.sense.view.MainActivity;
+import mobi.ai.sense.persistence.LoginRepository;
+import mobi.ai.sense.ui.DisplayMessageActivity;
+import mobi.ai.sense.ui.MainActivity;
 
-public class MainPresenter {
+public class Main {
 
     public static final String EXTRA_MESSAGE = "mobi.ai.sense";
-    LoginModel loginModel;
+    LoginRepository loginRepository;
 
     public Intent efetuarLogin(EditText editText4, EditText editText5, MainActivity mainActivity){
 
@@ -19,7 +18,7 @@ public class MainPresenter {
         intent.putExtra(EXTRA_MESSAGE, editText5.getText().toString());
         String email = editText4.getText().toString();
         String password = editText5.getText().toString();
-        this.loginModel.consultUser(email,password);
+        this.loginRepository.consultUser(email,password);
         return intent;
     }
 

@@ -12,13 +12,13 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".view.PanelActivity">
+        <activity android:name=".ui.PanelActivity">
         </activity>
-        <activity android:name=".view.MenuActivity">
+        <activity android:name=".ui.MenuActivity">
         </activity>
-        <activity android:name=".view.DisplayMessageActivity">
+        <activity android:name=".ui.DisplayMessageActivity">
         </activity>
-        <activity android:name=".view.MainActivity">
+        <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

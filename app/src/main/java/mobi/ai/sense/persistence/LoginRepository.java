@@ -1,12 +1,11 @@
-package mobi.ai.sense.model;
+package mobi.ai.sense.persistence;
 
 import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteOpenHelper;
 import mobi.ai.sense.conf.Dbhelper;
 import mobi.ai.sense.conf.SenseApplication;
 
 
-public class LoginModel {
+public class LoginRepository {
 
     /* Instanciação do banco de dados Sqlite */
      Dbhelper dbhelper = new Dbhelper(SenseApplication.context);

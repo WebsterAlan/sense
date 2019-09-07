@@ -1,4 +1,4 @@
-package mobi.ai.sense.view;
+package mobi.ai.sense.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
