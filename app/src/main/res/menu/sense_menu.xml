@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
 
    <item
             android:id="@+id/initial_page"
             android:icon="@mipmap/ic_launcher"
             android:title="@string/app_name"
-   ></item>
+            app:showAsAction="ifRoom"></item>
 
     <item
-
 
             android:id="@+id/list_products"
             android:icon="@mipmap/ic_launcher"
