@@ -21,8 +21,4 @@ public class Main {
         boolean result = this.loginRepository.consultUser(email,password);
         return intent;
     }
-
-
-
-
 }

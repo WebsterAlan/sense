@@ -26,12 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         @Override
-        public void onReceive(Context context, Intent intent) {
-
-
-
-
-        }
+        public void onReceive(Context context, Intent intent) {}
     };
 
     @Override
