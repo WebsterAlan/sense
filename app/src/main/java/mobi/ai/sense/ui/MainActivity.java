@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     SimpleDateFormat datePresent = new SimpleDateFormat("mm:ss", Locale.US);
 
-    Main main;
+    Main main = new Main();
 
     private BroadcastReceiver receiver = new BroadcastReceiver() {
 
@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onReceive(Context context, Intent intent) {}
     };
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
         EditText editText4 = (EditText) findViewById(R.id.editText4);
         EditText editText5 = (EditText) findViewById(R.id.editText5);
-        Intent intent = this.main.efetuarLogin(editText4,editText5,this);
+        Intent intent = this.main.efetuarLogin(editText4,editText5, this.getApplicationContext()) ;
 
         /* Usado para enviar dados sem retorno */
         startActivity(intent);

@@ -12,6 +12,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <!-- mundando tema para remover o título do app -->
+            <!--android:theme="@style/AppTheme"> -->
         <activity android:name=".ui.PanelActivity">
         </activity>
         <activity android:name=".ui.MenuActivity">
