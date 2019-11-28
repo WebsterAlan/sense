@@ -12,7 +12,7 @@ public class Main {
     public static final String EXTRA_MESSAGE = "mobi.ai.sense";
     LoginRepository loginRepository = new LoginRepository();
 
-    public Intent efetuarLogin(EditText editText4, EditText editText5, Context mainActivity){
+    public Intent efetuarLogin(EditText editText4, EditText editText5, MainActivity mainActivity){
 
         Intent intent = new Intent(mainActivity,MenuActivity.class);
         intent.putExtra(EXTRA_MESSAGE, editText4.getText().toString());
