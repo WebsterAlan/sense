@@ -18,8 +18,8 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
 
-        <!-- MainActivity -->
-        <activity android:name=".ui.MainActivity"></activity>
+        <!-- LoginActivity -->
+        <activity android:name=".ui.LoginActivity"></activity>
 
         <!-- mundando tema para remover o título do app
         android:theme="@style/AppTheme">
@@ -33,14 +33,6 @@
         <activity android:name=".ui.DisplayMessageActivity"></activity>
 
         <!-- LoadActivity -->
-        <activity android:name=".ui.LoadActivity">
-
-            <!-- Tipo de Intent para recebimento -->
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
 
     </application>
  <!-- Fim Application -->

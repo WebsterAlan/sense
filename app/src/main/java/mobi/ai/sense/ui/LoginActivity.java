@@ -6,13 +6,13 @@ import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import mobi.ai.sense.R;
-import mobi.ai.sense.crtl.Main;
+import mobi.ai.sense.crtl.Login;
 
-public class MainActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = "mobi.ai.sense";
 
-    Main main = new Main();
+    Login main = new Login();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
