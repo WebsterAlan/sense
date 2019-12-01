@@ -8,6 +8,7 @@ import android.os.Bundle;
 import mobi.ai.sense.R;
 import mobi.ai.sense.crtl.Login;
 
+/* Atividade responsável pelo login do usuário */
 public class LoginActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = "mobi.ai.sense";

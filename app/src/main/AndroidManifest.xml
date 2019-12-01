@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!--  Resources, distribuition, package -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:dist="http://schemas.android.com/apk/distribution"
           package="mobi.ai.sense">
-
     <!-- Module -->
     <dist:module dist:instant="true"/>
 
-    <!-- Application -->
     <application
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
@@ -16,24 +12,18 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-
-
+        <activity android:name=".ui.RegisterActivity">
+        </activity>
         <!-- LoginActivity -->
-        <activity android:name=".ui.LoginActivity"></activity>
-
-        <!-- mundando tema para remover o título do app
+        <activity android:name=".ui.LoginActivity"/>
+        <!--
+ mundando tema para remover o título do app
         android:theme="@style/AppTheme">
-        PanelActivity-->
-        <activity android:name=".ui.PanelActivity"></activity>
-
-        <!-- MenuActivity-->
-        <activity android:name=".ui.MenuActivity"></activity>
-
-        <!-- DisplayMessageActivity -->
-        <activity android:name=".ui.DisplayMessageActivity"></activity>
-
-        <!-- LoadActivity -->
-
+        PanelActivity
+        -->
+        <activity android:name=".ui.PanelActivity"/> <!-- MenuActivity -->
+        <activity android:name=".ui.MenuActivity"/> <!-- DisplayMessageActivity -->
+        <activity android:name=".ui.DisplayMessageActivity"/>
     </application>
- <!-- Fim Application -->
+
 </manifest>

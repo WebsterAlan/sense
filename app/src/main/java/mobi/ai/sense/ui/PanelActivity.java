@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import mobi.ai.sense.R;
 
+/* Painel principal para ações de prioridade no aplicativo */
 public class PanelActivity extends AppCompatActivity {
 
     @Override

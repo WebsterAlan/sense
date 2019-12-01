@@ -3,7 +3,7 @@ package mobi.ai.sense.ui;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import mobi.ai.sense.R;
-
+/* Atividade responsável por notificações ao usuário */
 public class DisplayMessageActivity extends AppCompatActivity {
 
     @Override
