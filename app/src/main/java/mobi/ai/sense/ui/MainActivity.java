@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        Intent intent = new Intent();
+        Intent intent = new Intent(this, MenuActivity.class);
+        startActivity(intent);
     }
 }
