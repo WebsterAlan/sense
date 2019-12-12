@@ -9,6 +9,7 @@
 
     <com.google.android.material.card.MaterialCardView
             android:id="@+id/card01"
+            android:backgroundTint="@color/red"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="200dp" tools:layout_editor_absoluteY="29dp" tools:layout_editor_absoluteX="0dp">
@@ -19,6 +20,7 @@
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
+            android:backgroundTint="@color/yellow"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="200dp" tools:layout_editor_absoluteY="256dp" tools:layout_editor_absoluteX="0dp">
@@ -30,6 +32,7 @@
 
 
     <com.google.android.material.card.MaterialCardView
+            android:backgroundTint="@color/green"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="200dp" tools:layout_editor_absoluteY="488dp" tools:layout_editor_absoluteX="8dp">
