@@ -2,4 +2,7 @@
     <string name="app_name">sense</string>
     <string name="send_button">Enviar</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="card_00">card_00</string>
+    <string name="card_01">card_01</string>
+    <string name="card_02">card_02</string>
 </resources>
