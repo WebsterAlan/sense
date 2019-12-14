@@ -37,4 +37,56 @@ public class MenuActivity extends AppCompatActivity {
     }
 
 
+    public void initVeryEmergency(View view){
+        cardView = findViewById(R.id.card01);
+        cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        boolean result = cardView.performClick();
+        System.out.print(result);
+    }
+
+
+    public void initUrgency(View view){
+        cardView = findViewById(R.id.card01);
+        cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        boolean result = cardView.performClick();
+        System.out.print(result);
+    }
+
+
+
+    public void initLittleUrgency(View view){
+        cardView = findViewById(R.id.card01);
+        cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        boolean result = cardView.performClick();
+        System.out.print(result);
+    }
+
+    public void initNoUrgency(View view){
+        cardView = findViewById(R.id.card01);
+        cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        boolean result = cardView.performClick();
+        System.out.print(result);
+    }
+
+
 }

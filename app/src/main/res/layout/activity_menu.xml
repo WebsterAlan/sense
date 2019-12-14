@@ -67,6 +67,7 @@
             app:layout_constraintTop_toTopOf="@+id/materialCardView2"
             app:layout_constraintBottom_toBottomOf="@+id/materialCardView2"/>
     <com.google.android.material.card.MaterialCardView
+            android:onClick="initUrgency"
             android:clickable="true"
             android:focusable="true"
             android:backgroundTint="@color/yellow"
@@ -98,6 +99,7 @@
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
+            android:onClick="initVeryEmergency"
             android:clickable="true"
             android:focusable="true"
             android:backgroundTint="@color/orange"
@@ -115,6 +117,7 @@
 
 
     <com.google.android.material.card.MaterialCardView
+            android:onClick="initLittleUrgency"
             android:clickable="true"
             android:focusable="true"
             android:backgroundTint="@color/green"
@@ -130,6 +133,7 @@
                 android:text="@string/card_02"/>
     </com.google.android.material.card.MaterialCardView>
     <com.google.android.material.card.MaterialCardView
+            android:onClick="initNoUrgency"
             android:clickable="true"
             android:focusable="true"
             android:backgroundTint="@color/blue"
