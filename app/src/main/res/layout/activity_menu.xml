@@ -7,12 +7,90 @@
         android:layout_height="match_parent"
         tools:context=".ui.MenuActivity">
 
+
+    <TextView
+            android:elevation="5dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:text="Emergência"
+            android:layout_width="320dp"
+            android:layout_height="48dp"
+            android:id="@+id/textView0"
+            app:layout_constraintTop_toTopOf="@+id/card01" app:layout_constraintBottom_toBottomOf="@+id/card01"
+            app:layout_constraintEnd_toEndOf="@+id/card01" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="@+id/card01"/>
+
+    <TextView
+            android:elevation="5dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:text="Muita Emergência"
+            android:layout_width="318dp"
+            android:layout_height="48dp"
+            android:id="@+id/textView1" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/materialCardView3"
+            app:layout_constraintBottom_toBottomOf="@+id/materialCardView3"/>
+    <TextView
+            android:elevation="5dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:text="Urgência"
+            android:layout_width="316dp"
+            android:layout_height="48dp"
+            android:id="@+id/textView2" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="@+id/materialCardView"
+            app:layout_constraintTop_toTopOf="@+id/materialCardView"
+            app:layout_constraintBottom_toBottomOf="@+id/materialCardView"/>
+    <TextView
+            android:elevation="5dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:text="Pouca Urgência"
+            android:layout_width="313dp"
+            android:layout_height="48dp"
+            android:id="@+id/textView3" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/materialCardView4"
+            app:layout_constraintBottom_toBottomOf="@+id/materialCardView4"/>
+
+
+    <TextView
+            android:elevation="5dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:text="Não Urgência"
+            android:layout_width="313dp"
+            android:layout_height="48dp"
+            android:id="@+id/textView4" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/materialCardView2"
+            app:layout_constraintBottom_toBottomOf="@+id/materialCardView2"/>
     <com.google.android.material.card.MaterialCardView
+            android:clickable="true"
+            android:focusable="true"
+            android:backgroundTint="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
+            android:minHeight="200dp" tools:layout_editor_absoluteX="0dp"
+            android:id="@+id/materialCardView" android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.485">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/card_02"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+            android:onClick="initEmergency"
             android:id="@+id/card01"
             android:backgroundTint="@color/red"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:minHeight="200dp" tools:layout_editor_absoluteY="29dp" tools:layout_editor_absoluteX="0dp">
+            android:layout_height="102dp"
+            android:minHeight="200dp" tools:layout_editor_absoluteX="16dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.071">
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -20,10 +98,15 @@
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-            android:backgroundTint="@color/yellow"
+            android:clickable="true"
+            android:focusable="true"
+            android:backgroundTint="@color/orange"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:minHeight="200dp" tools:layout_editor_absoluteY="256dp" tools:layout_editor_absoluteX="0dp">
+            android:layout_height="98dp"
+            android:minHeight="200dp" tools:layout_editor_absoluteX="16dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.285"
+            android:id="@+id/materialCardView3">
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -32,10 +115,30 @@
 
 
     <com.google.android.material.card.MaterialCardView
+            android:clickable="true"
+            android:focusable="true"
             android:backgroundTint="@color/green"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:minHeight="200dp" tools:layout_editor_absoluteY="488dp" tools:layout_editor_absoluteX="8dp">
+            android:layout_height="100dp"
+            android:minHeight="200dp" tools:layout_editor_absoluteX="0dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.699"
+            android:id="@+id/materialCardView4">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/card_02"/>
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+            android:clickable="true"
+            android:focusable="true"
+            android:backgroundTint="@color/blue"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:minHeight="200dp" tools:layout_editor_absoluteX="0dp"
+            android:id="@+id/materialCardView2" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.897">
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

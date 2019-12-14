@@ -1,5 +1,6 @@
 package mobi.ai.sense.ui;
 
+import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import com.google.android.material.card.MaterialCardView;
@@ -21,7 +22,19 @@ public class MenuActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
 
-        cardView = (MaterialCardView) findViewById(R.id.card01);
-        boolean result = cardView.callOnClick();
     }
+
+    public void initEmergency(View view){
+        cardView = findViewById(R.id.card01);
+        cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        boolean result = cardView.performClick();
+        System.out.print(result);
+    }
+
+
 }

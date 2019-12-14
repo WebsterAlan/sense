@@ -2,6 +2,7 @@ package mobi.ai.sense.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import mobi.ai.sense.R;
 
 
 /* Atividade responsável pelo registro do usuário */
