@@ -21,11 +21,10 @@ public class MenuActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-
     }
 
     public void initEmergency(View view){
-        cardView = findViewById(R.id.card01);
+        cardView = findViewById(R.id.cardRed);
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,7 +37,7 @@ public class MenuActivity extends AppCompatActivity {
 
 
     public void initVeryEmergency(View view){
-        cardView = findViewById(R.id.card01);
+        cardView = findViewById(R.id.cardOrange);
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,7 +50,7 @@ public class MenuActivity extends AppCompatActivity {
 
 
     public void initUrgency(View view){
-        cardView = findViewById(R.id.card01);
+        cardView = findViewById(R.id.cardYellow);
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -65,7 +64,7 @@ public class MenuActivity extends AppCompatActivity {
 
 
     public void initLittleUrgency(View view){
-        cardView = findViewById(R.id.card01);
+        cardView = findViewById(R.id.cardGreen);
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -77,12 +76,10 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void initNoUrgency(View view){
-        cardView = findViewById(R.id.card01);
+        cardView = findViewById(R.id.cardBlue);
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-
-            }
+            public void onClick(View v) {}
         });
         boolean result = cardView.performClick();
         System.out.print(result);

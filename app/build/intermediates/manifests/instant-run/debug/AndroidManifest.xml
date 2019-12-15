@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="mobi.ai.sense"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="28"
+        android:targetSdkVersion="28" />
+    <!-- Module -->
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name="mobi.ai.sense.ui.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="mobi.ai.sense.ui.RegisterActivity" >
+        </activity> <!-- LoginActivity -->
+        <activity android:name="mobi.ai.sense.ui.LoginActivity" />
+        <!--
+ mundando tema para remover o título do app
+        android:theme="@style/AppTheme">
+        PanelActivity
+        -->
+        <!-- MenuActivity -->
+        <activity android:name="mobi.ai.sense.ui.MenuActivity" /> <!-- DisplayMessageActivity -->
+        <activity android:name="mobi.ai.sense.ui.DisplayMessageActivity" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="mobi.ai.sense.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

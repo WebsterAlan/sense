@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/danger/Documentos/ide/IntelliJ/workspace/sense/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/home/danger/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0-beta01.aar/ccd1143847b2cd0262fce95c265fa8f0/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -4,7 +4,7 @@
           package="mobi.ai.sense">
     <!-- Module -->
     <dist:module dist:instant="true"/>
-
+    <uses-permisssion android:name="android.permission.CALL_PHONE"></uses-permisssion>
     <application
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"

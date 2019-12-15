@@ -1,0 +1,201 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:2:1-37:12
+MERGED from [com.google.android.material:material:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/material-1.0.0-beta01.aar/c8eb490e3de3d2188f7494bd32603201/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0-beta01.aar/ccd1143847b2cd0262fce95c265fa8f0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] /home/danger/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.2.aar/b463018203f3b3386db04f158318d3a1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/gridlayout-1.0.0.aar/3d543b71726e3dd00afafb5d81ab7757/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0-beta01.aar/1d231bc1c5d9926f5b8c169a2e795f42/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0-beta01.aar/9f67c254103c5fd25c220839a54bb0ba/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0-beta01.aar/e2fe95cd744da8ec9ede91f7c8fe99d6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/transition-1.0.0-beta01.aar/d6534524329e81ae3da11bd88d31b191/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0-beta01.aar/3a54b750189b68d66f4edf2780e46085/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0-beta01.aar/8222e9865416f0ac227a2fefb3331cfe/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/1df5db458bed220b26d48fd8962ad140/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/00911d186b86aa26769d90b63b991d0e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/10f2ece52457b99518aa99f774798021/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/23c2e8f7c3f47530a37b16faea837e3f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/4257f989abe87ea0ef048e1f11e213b8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/cd4fecc80bda097e75dcab6daa1cabe5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/519637c57315ea41eaf25e7661fd3198/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/23c6aa9883f5de30377e0768c3faec6f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/72cfad68782e35c1ab19e336e2c6e387/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/0c5f0d2134fc2c5927893b73973c9adb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/3b9cd2e8ad6d22954e5da66cce46cf4c/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/cc59bd4c5ba50bc8571e5277267cd61e/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/a0eb200415857fd966282a933e762bb9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/3d34bcbd164ab9572b11e32c3c91630e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/5ec9d923972768460857229da8834850/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/63e9a9d0e07a5b4a36d6c428fb5fc4cf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/1ed2d8e819f62777bd6b7b5fd3beb495/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/b1fb62082c6397eea95f2e89f52911c9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/06f8e3298a5a6a92093553373d89ae20/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/41e89d8cf8aacd605255142c25c02d3a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/7e11c0c7d0c2082071ad1799be3f9406/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/38538f0be8523f7f589e025685acbff6/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:4:11-34
+		INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml
+		INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:2:1-37:12
+		INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml
+	xmlns:dist
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:3:11-67
+	android:versionCode
+		INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:2:1-37:12
+		INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:2:11-69
+dist:module
+ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:6:5-39
+	dist:instant
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:6:18-37
+uses-permisssion
+ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:7:5-87
+	android:name
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:7:23-67
+application
+ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:8:5-35:19
+MERGED from [com.google.android.material:material:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/material-1.0.0-beta01.aar/c8eb490e3de3d2188f7494bd32603201/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/material-1.0.0-beta01.aar/c8eb490e3de3d2188f7494bd32603201/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] /home/danger/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.2.aar/b463018203f3b3386db04f158318d3a1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] /home/danger/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.2.aar/b463018203f3b3386db04f158318d3a1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/3b9cd2e8ad6d22954e5da66cce46cf4c/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/3b9cd2e8ad6d22954e5da66cce46cf4c/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/cc59bd4c5ba50bc8571e5277267cd61e/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/cc59bd4c5ba50bc8571e5277267cd61e/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/3b9cd2e8ad6d22954e5da66cce46cf4c/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:13:13-39
+	android:label
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:11:13-45
+	android:roundIcon
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:12:13-58
+	android:icon
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:10:13-47
+	android:allowBackup
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:9:13-39
+	android:theme
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:14:13-69
+activity#mobi.ai.sense.ui.MainActivity
+ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:16:9-23:20
+	android:label
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:17:17-60
+	android:theme
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:18:17-73
+	android:name
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:16:19-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:19:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:20:17-68
+	android:name
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:21:17-76
+	android:name
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:21:27-74
+activity#mobi.ai.sense.ui.RegisterActivity
+ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:24:9-25:20
+	android:name
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:24:19-54
+activity#mobi.ai.sense.ui.LoginActivity
+ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:26:9-53
+	android:name
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:26:19-51
+activity#mobi.ai.sense.ui.MenuActivity
+ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:33:9-52
+	android:name
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:33:19-50
+activity#mobi.ai.sense.ui.DisplayMessageActivity
+ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:34:9-62
+	android:name
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml:34:19-60
+uses-sdk
+INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml
+INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/material-1.0.0-beta01.aar/c8eb490e3de3d2188f7494bd32603201/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/material-1.0.0-beta01.aar/c8eb490e3de3d2188f7494bd32603201/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0-beta01.aar/ccd1143847b2cd0262fce95c265fa8f0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0-beta01.aar/ccd1143847b2cd0262fce95c265fa8f0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] /home/danger/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.2.aar/b463018203f3b3386db04f158318d3a1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] /home/danger/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.2.aar/b463018203f3b3386db04f158318d3a1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/gridlayout-1.0.0.aar/3d543b71726e3dd00afafb5d81ab7757/AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/gridlayout-1.0.0.aar/3d543b71726e3dd00afafb5d81ab7757/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0-beta01.aar/1d231bc1c5d9926f5b8c169a2e795f42/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0-beta01.aar/1d231bc1c5d9926f5b8c169a2e795f42/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0-beta01.aar/9f67c254103c5fd25c220839a54bb0ba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0-beta01.aar/9f67c254103c5fd25c220839a54bb0ba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0-beta01.aar/e2fe95cd744da8ec9ede91f7c8fe99d6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0-beta01.aar/e2fe95cd744da8ec9ede91f7c8fe99d6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/transition-1.0.0-beta01.aar/d6534524329e81ae3da11bd88d31b191/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/transition-1.0.0-beta01.aar/d6534524329e81ae3da11bd88d31b191/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0-beta01.aar/3a54b750189b68d66f4edf2780e46085/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0-beta01.aar/3a54b750189b68d66f4edf2780e46085/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0-beta01.aar/8222e9865416f0ac227a2fefb3331cfe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0-beta01] /home/danger/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0-beta01.aar/8222e9865416f0ac227a2fefb3331cfe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/1df5db458bed220b26d48fd8962ad140/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/1df5db458bed220b26d48fd8962ad140/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/00911d186b86aa26769d90b63b991d0e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/00911d186b86aa26769d90b63b991d0e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/10f2ece52457b99518aa99f774798021/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/10f2ece52457b99518aa99f774798021/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/23c2e8f7c3f47530a37b16faea837e3f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/23c2e8f7c3f47530a37b16faea837e3f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/4257f989abe87ea0ef048e1f11e213b8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/4257f989abe87ea0ef048e1f11e213b8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/cd4fecc80bda097e75dcab6daa1cabe5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/cd4fecc80bda097e75dcab6daa1cabe5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/519637c57315ea41eaf25e7661fd3198/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/519637c57315ea41eaf25e7661fd3198/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/23c6aa9883f5de30377e0768c3faec6f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/23c6aa9883f5de30377e0768c3faec6f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/72cfad68782e35c1ab19e336e2c6e387/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/72cfad68782e35c1ab19e336e2c6e387/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/0c5f0d2134fc2c5927893b73973c9adb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/0c5f0d2134fc2c5927893b73973c9adb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/3b9cd2e8ad6d22954e5da66cce46cf4c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/3b9cd2e8ad6d22954e5da66cce46cf4c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/cc59bd4c5ba50bc8571e5277267cd61e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/cc59bd4c5ba50bc8571e5277267cd61e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/a0eb200415857fd966282a933e762bb9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/a0eb200415857fd966282a933e762bb9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/3d34bcbd164ab9572b11e32c3c91630e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/3d34bcbd164ab9572b11e32c3c91630e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/5ec9d923972768460857229da8834850/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/5ec9d923972768460857229da8834850/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/63e9a9d0e07a5b4a36d6c428fb5fc4cf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/63e9a9d0e07a5b4a36d6c428fb5fc4cf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/1ed2d8e819f62777bd6b7b5fd3beb495/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/1ed2d8e819f62777bd6b7b5fd3beb495/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/b1fb62082c6397eea95f2e89f52911c9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/b1fb62082c6397eea95f2e89f52911c9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/06f8e3298a5a6a92093553373d89ae20/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/06f8e3298a5a6a92093553373d89ae20/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/41e89d8cf8aacd605255142c25c02d3a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/41e89d8cf8aacd605255142c25c02d3a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/7e11c0c7d0c2082071ad1799be3f9406/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/7e11c0c7d0c2082071ad1799be3f9406/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/38538f0be8523f7f589e025685acbff6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/danger/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/38538f0be8523f7f589e025685acbff6/AndroidManifest.xml:20:5-44
+INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml
+INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml
+		INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml
+		ADDED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml
+		INJECTED from /home/danger/Documentos/ide/IntelliJ/workspace/sense/app/src/main/AndroidManifest.xml
