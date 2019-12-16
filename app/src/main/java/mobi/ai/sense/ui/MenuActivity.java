@@ -38,7 +38,10 @@ public class MenuActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String number = "333";
                 Uri uri = Uri.parse("tel:" + number);
-                Intent intent = new Intent(Intent.ACTION_CALL, uri);
+                Intent intentCall = new Intent(Intent.ACTION_CALL, uri);
+                Intent sendIntent = new Intent(Intent.ACTION_VIEW);
+                sendIntent.putExtra("sms_body", "default content");
+                sendIntent.setType("vnd.android-dir/mms-sms");
                 if (ContextCompat.checkSelfPermission(MenuActivity.this,
                         Manifest.permission.CALL_PHONE)
                         != PackageManager.PERMISSION_GRANTED) {
@@ -46,14 +49,14 @@ public class MenuActivity extends AppCompatActivity {
                     ActivityCompat.requestPermissions(MenuActivity.this,
                             new String[]{Manifest.permission.CALL_PHONE},
                             MY_PERMISSIONS_REQUEST_CALL_PHONE);
+                    //Enviar Mensagem de Texto
+                    //Avisar e listar  Contatos sobre emergência e enviar localização
 
-                    // MY_PERMISSIONS_REQUEST_CALL_PHONE is an
-                    // app-defined int constant. The callback method gets the
-                    // result of the request.
                 } else {
                     //You already have permission
                     try {
-                        startActivity(intent);
+                        startActivity(intentCall);
+                        startActivity(sendIntent);
                     } catch (SecurityException e) {
                         e.printStackTrace();
                     }
