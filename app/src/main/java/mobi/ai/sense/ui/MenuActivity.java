@@ -1,5 +1,7 @@
 package mobi.ai.sense.ui;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -28,6 +30,9 @@ public class MenuActivity extends AppCompatActivity {
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Uri uri = Uri.parse("tel:"+333);
+                Intent intent = new Intent(Intent.ACTION_CALL,uri);
+                startActivity(intent);
 
             }
         });

@@ -1,4 +1,0 @@
-#Thu Dec 12 20:49:38 BRT 2019
-base.0=/home/danger/Documentos/ide/IntelliJ/workspace/sense/app/build/intermediates/transforms/dexMerger/debug/4
-path.0=classes.dex
-renamed.0=classes.dex
