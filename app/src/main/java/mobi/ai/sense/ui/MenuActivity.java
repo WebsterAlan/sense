@@ -1,10 +1,15 @@
 package mobi.ai.sense.ui;
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.view.View;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import com.google.android.material.card.MaterialCardView;
 import mobi.ai.sense.R;
 
@@ -12,6 +17,7 @@ import mobi.ai.sense.R;
 public class MenuActivity extends AppCompatActivity {
 
 
+    private static final int MY_PERMISSIONS_REQUEST_CALL_PHONE = 1 ;
     MaterialCardView cardView;
 
     @Override
@@ -30,16 +36,36 @@ public class MenuActivity extends AppCompatActivity {
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri uri = Uri.parse("tel:"+333);
-                Intent intent = new Intent(Intent.ACTION_CALL,uri);
-                startActivity(intent);
+                String number = "333";
+                Uri uri = Uri.parse("tel:" + number);
+                Intent intent = new Intent(Intent.ACTION_CALL, uri);
+                if (ContextCompat.checkSelfPermission(MenuActivity.this,
+                        Manifest.permission.CALL_PHONE)
+                        != PackageManager.PERMISSION_GRANTED) {
 
+                    ActivityCompat.requestPermissions(MenuActivity.this,
+                            new String[]{Manifest.permission.CALL_PHONE},
+                            MY_PERMISSIONS_REQUEST_CALL_PHONE);
+
+                    // MY_PERMISSIONS_REQUEST_CALL_PHONE is an
+                    // app-defined int constant. The callback method gets the
+                    // result of the request.
+                } else {
+                    //You already have permission
+                    try {
+                        startActivity(intent);
+                    } catch (SecurityException e) {
+                        e.printStackTrace();
+                    }
+
+
+                }
+
+                boolean result = cardView.performClick();
+                System.out.print(result);
             }
         });
-        boolean result = cardView.performClick();
-        System.out.print(result);
     }
-
 
     public void initVeryEmergency(View view){
         cardView = findViewById(R.id.cardOrange);
@@ -90,5 +116,32 @@ public class MenuActivity extends AppCompatActivity {
         System.out.print(result);
     }
 
+
+
+
+
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        switch (requestCode) {
+            case MY_PERMISSIONS_REQUEST_CALL_PHONE: {
+                // If request is cancelled, the result arrays are empty.
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+
+                    // permission was granted, yay! Do the phone call
+
+                } else {
+
+                    // permission denied, boo! Disable the
+                    // functionality that depends on this permission.
+                }
+                return;
+            }
+
+            // other 'case' lines to check for other
+            // permissions this app might request
+        }
+    }
 
 }
