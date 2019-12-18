@@ -8,11 +8,15 @@
     <uses-sdk
         android:minSdkVersion="28"
         android:targetSdkVersion="28" />
+
     <!-- Module -->
     <dist:module dist:instant="true" />
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -23,6 +27,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <service
+            android:name="mobi.ai.sense.service.GPService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
         <activity android:name="mobi.ai.sense.ui.BulletinActivity" >
         </activity>
         <activity

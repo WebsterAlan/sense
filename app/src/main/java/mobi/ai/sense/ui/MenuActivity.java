@@ -1,8 +1,12 @@
 package mobi.ai.sense.ui;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.net.Uri;
 import android.view.View;
 import androidx.annotation.NonNull;
@@ -51,7 +55,30 @@ public class MenuActivity extends AppCompatActivity {
                             MY_PERMISSIONS_REQUEST_CALL_PHONE);
                     //Enviar Mensagem de Texto
                     //Avisar e listar  Contatos sobre emergência e enviar localização
+                    LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+                    LocationListener locationListener = new LocationListener() {
+                        @Override
+                        public void onLocationChanged(Location location) {
 
+                        }
+
+                        @Override
+                        public void onStatusChanged(String provider, int status, Bundle extras) {
+
+                        }
+
+                        @Override
+                        public void onProviderEnabled(String provider) {
+
+                        }
+
+                        @Override
+                        public void onProviderDisabled(String provider) {
+
+                        }
+                    };
+
+                    locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,0,0,locationListener);
                 } else {
                     //You already have permission
                     try {
