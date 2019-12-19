@@ -16,6 +16,7 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import com.google.android.material.card.MaterialCardView;
 import mobi.ai.sense.R;
+import mobi.ai.sense.crtl.Menu;
 
 /* Menu responsável por ações no aplicativo, durante transições de atividades */
 public class MenuActivity extends AppCompatActivity {
@@ -23,6 +24,7 @@ public class MenuActivity extends AppCompatActivity {
 
     private static final int MY_PERMISSIONS_REQUEST_CALL_PHONE = 1 ;
     MaterialCardView cardView;
+    Menu menu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
