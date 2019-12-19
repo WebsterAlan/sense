@@ -57,6 +57,7 @@ public class MenuActivity extends AppCompatActivity {
                     //Avisar e listar  Contatos sobre emergência e enviar localização
                     LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
                     LocationListener locationListener = new LocationListener() {
+
                         @Override
                         public void onLocationChanged(Location location) {
 
@@ -171,6 +172,13 @@ public class MenuActivity extends AppCompatActivity {
 
             // other 'case' lines to check for other
             // permissions this app might request
+        }
+    }
+
+    public void requestPermission(){
+
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED){
+               ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION},1);
         }
     }
 
