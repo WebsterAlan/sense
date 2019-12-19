@@ -20,6 +20,16 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <service
+                android:name=".service.CallService"
+                android:enabled="true"
+                android:exported="true">
+        </service>
+        <service
+                android:name=".service.SMService"
+                android:enabled="true"
+                android:exported="true">
+        </service>
+        <service
                 android:name=".service.GPService"
                 android:enabled="true"
                 android:exported="true">

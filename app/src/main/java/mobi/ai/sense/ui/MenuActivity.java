@@ -40,12 +40,18 @@ public class MenuActivity extends AppCompatActivity {
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                //Acionamento de Chamada
                 String number = "333";
                 Uri uri = Uri.parse("tel:" + number);
                 Intent intentCall = new Intent(Intent.ACTION_CALL, uri);
+
+                //Envio de Mensagem de Texto
                 Intent sendIntent = new Intent(Intent.ACTION_VIEW);
                 sendIntent.putExtra("sms_body", "default content");
                 sendIntent.setType("vnd.android-dir/mms-sms");
+
+                //Checando permissão para chamadas,localização e Envio de SMS
                 if (ContextCompat.checkSelfPermission(MenuActivity.this,
                         Manifest.permission.CALL_PHONE)
                         != PackageManager.PERMISSION_GRANTED) {
@@ -53,8 +59,7 @@ public class MenuActivity extends AppCompatActivity {
                     ActivityCompat.requestPermissions(MenuActivity.this,
                             new String[]{Manifest.permission.CALL_PHONE},
                             MY_PERMISSIONS_REQUEST_CALL_PHONE);
-                    //Enviar Mensagem de Texto
-                    //Avisar e listar  Contatos sobre emergência e enviar localização
+
                     LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
                     LocationListener locationListener = new LocationListener() {
 
