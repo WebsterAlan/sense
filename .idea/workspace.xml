@@ -10,6 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20009bdb-b157-4155-a645-de1bb833b223" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo_mobile.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -377,10 +378,10 @@
       <screen x="67" y="27" width="1213" height="773" />
     </state>
     <state x="406" y="161" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1213.773/1280.0.800.600@67.27.1213.773" timestamp="1576804890223" />
-    <state x="158" y="27" width="1020" height="773" key="CommitChangelistDialog2" timestamp="1576804557271">
+    <state x="158" y="27" width="1020" height="773" key="CommitChangelistDialog2" timestamp="1576804914943">
       <screen x="67" y="27" width="1213" height="773" />
     </state>
-    <state x="158" y="27" width="1020" height="773" key="CommitChangelistDialog2/67.27.1213.773/1280.0.800.600@67.27.1213.773" timestamp="1576804557271" />
+    <state x="158" y="27" width="1020" height="773" key="CommitChangelistDialog2/67.27.1213.773/1280.0.800.600@67.27.1213.773" timestamp="1576804914943" />
     <state x="456" y="129" width="424" height="567" key="FileChooserDialogImpl" timestamp="1576730719377">
       <screen x="67" y="27" width="1213" height="773" />
     </state>
@@ -421,14 +422,14 @@
       <screen x="67" y="27" width="1213" height="773" />
     </state>
     <state x="259" y="111" width="819" height="602" key="NewModule_or_Project.wizard/67.27.1213.773/1280.0.800.600@67.27.1213.773" timestamp="1576730785861" />
-    <state x="268" y="148" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1576804567704">
+    <state x="268" y="148" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1576804920954">
       <screen x="67" y="27" width="1213" height="773" />
     </state>
-    <state x="268" y="148" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1213.773/1280.0.800.600@67.27.1213.773" timestamp="1576804567704" />
-    <state x="329" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1576710667917">
+    <state x="268" y="148" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1213.773/1280.0.800.600@67.27.1213.773" timestamp="1576804920954" />
+    <state x="329" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1576805944941">
       <screen x="67" y="27" width="1213" height="773" />
     </state>
-    <state x="329" y="241" key="com.intellij.ide.util.TipDialog/67.27.1213.773/1280.0.800.600@67.27.1213.773" timestamp="1576710667917" />
+    <state x="329" y="241" key="com.intellij.ide.util.TipDialog/67.27.1213.773/1280.0.800.600@67.27.1213.773" timestamp="1576805944941" />
     <state x="352" y="205" width="633" height="415" key="git4idea.merge.GitPullDialog" timestamp="1576804855895">
       <screen x="67" y="27" width="1213" height="773" />
     </state>
