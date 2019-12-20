@@ -1,1 +1,1 @@
-![](demo.gif)
+![](demo_mobile.gif)
